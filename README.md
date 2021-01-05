@@ -1,5 +1,5 @@
 ## wifidroid 
-is a module created for Wi-Fi management in Android
+Is a module created for Wi-Fi management in Android
 with Python, wifidroid has methods to connect to Wi-Fi 
 networks with WPA / WPA2, WEP and public networks, 
 it also has methods to scan Wi-Fi networks, 
@@ -63,7 +63,7 @@ for i in range(wifi.ScanResults.size()):
     #printing results
     print(ssid[0]+" "+bssid[0]+" "+str(levell[0]))
 ```
-## Output:
+Output:
 ```
 [INFO   ] [KivyMD      ] v0.104.1
 [INFO   ] [Factory     ] 184 symbols loaded
@@ -84,7 +84,7 @@ wifi = WifiManager()
 wifi.startScan()
 print(wifi.allScanResults)  
 ```
-## Output:
+Output:
 ```
 [INFO   ] [KivyMD      ] v0.104.1
 [INFO   ] [Factory     ] 184 symbols loaded
@@ -99,7 +99,8 @@ Radio Chain Infos: [RadioChainInfo: id=0, level=-50]]
 These examples can be used in Pydroid3 and in a kivy / kivymd app
 
 
-##Important: Before using wifidroid make sure your android app 
+## Important
+Before using wifidroid make sure your android app 
 has the following permissions: CHANGE_WIFI_STATE, ACCESS_WIFI_STATE, 
 INTERNET, ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, ACCESS_NETWORK_STATE, 
 and also remember that to scan Wi-Fi networks you must activate the location 
