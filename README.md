@@ -48,6 +48,7 @@ from wifidroid.wifi import WifiManager
 
 #Scanning WiFi networks
 #You must first instantiate the WifiManager class
+#To scan Wi-Fi networks you must activate the location.
 
 wifi = WifiManager()
 wifi.startScan()
@@ -68,12 +69,24 @@ from wifidroid.wifi import WifiManager
 
 #Obtaining all the WiFi networks in the surroundings with their respective 
 information
+#To scan Wi-Fi networks you must activate the location.
 
 wifi = WifiManager()
 wifi.startScan()
 print(wifi.allScanResults)  
 ```
+Important: Before using wifidroid make sure your android app 
+has the following permissions: CHANGE_WIFI_STATE, ACCESS_WIFI_STATE, 
+INTERNET, ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, ACCESS_NETWORK_STATE, 
+and also remember that to scan Wi-Fi networks you must activate the location 
+(google requirement).
 
+
+
+installation:
+```
+pip3 install wifidroid
+```
 
 
    
