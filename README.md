@@ -1,10 +1,10 @@
 ## wifidroid 
 Is a module created for Wi-Fi management in Android
-with Python, wifidroid has methods to connect to Wi-Fi 
+with Python. Wifidroid has methods to connect to Wi-Fi 
 networks with WPA / WPA2, WEP and public networks, 
-it also has methods to scan Wi-Fi networks, 
-turn Wi-Fi off or on, etc.  you can use wifidroid on Pydroid3 
-and kivy / kivymd, wifidroid is compatible with most android api's.
+as well as methods to scan Wi-Fi networks, 
+turn Wi-Fi off or on, and more. You can use wifidroid on Pydroid3 
+and kivy / kivymd, wifidroid is compatible with most Android APIs.
 
 
 ## Examples:
